@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityN">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="171dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="91dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="1  LITRE PACK"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="158dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="91dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="1/2 LITRE PACK"
+        android:textColor="#090808"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="319dp"
+        android:layout_height="311dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/contrail_one"
+        android:includeFontPadding="true"
+        android:text="PLEASE SELECT THE DATE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#03A9F4"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="171dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="317dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="1  LITRE PACK"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="158dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="317dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="1/2 LITRE PACK"
+        android:textColor="#090808"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="402dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="83dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="390dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginBottom="138dp"
+        android:text="CUPONS LEFT"
+        android:textColor="#03A9F4"
+        android:textSize="39sp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="717dp" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="112dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="4dp"
+        android:visibility="visible"
+        app:cardBackgroundColor="#9CCAEF"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="100dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="false"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="583dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginBottom="219dp"
+        android:background="#090808"
+        android:text="DONE"
+        app:iconTint="#7EB9E8"
+        app:rippleColor="#376081"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="187dp"
+        android:text="Repeat"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="504dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="117dp"
+        android:layout_height="84dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="3dp"
+        app:cardBackgroundColor="#9CCAEF"
+        app:cardCornerRadius="30dp" />
+
+</RelativeLayout>
